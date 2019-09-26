@@ -1,0 +1,9 @@
+DEPENDENCIES
+  audit-wrapper
+    path: .
+    metadata: true
+
+GRAPH
+  audit (9.0.1)
+  audit-wrapper (0.1.7)
+    audit (~> 9.0)
